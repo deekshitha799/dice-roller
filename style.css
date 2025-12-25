@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: rgb(236, 236, 236);
+    padding: 20px;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 4px 4px 8px hsla(0, 0%, 0%, 0.466);
+    margin: auto;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+h1{
+    font-size: 2.5em;
+    color: hsla(347, 100%, 50%, 0.87);
+    margin: 20px;
+    text-align: center;
+}
+
+label{
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+input{
+    font-size: 1.5em;
+    text-align: center;
+    width: 10vw;
+    position: relative;
+}
+
+button{
+    margin: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: hsla(214, 100%, 50%, 0.774);
+    padding: 10px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.btn{
+    position: relative;
+    text-align: center;
+}
+
+button:hover{
+    background-color: hsl(214, 100%, 50%);
+}
+
+button:active{
+    background-color: hsla(214, 100%, 50%, 0.616);
+}
+
+#resultContainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 4px 4px 8px hsla(0, 0%, 0%, 0.466);
+    top: 30px;
+    margin: auto;
+    gap: 20px;
+    padding: 20px;
+}
+
+img{
+    width: 100px;
+}
+
+#diceResult{
+    font-size: 16px;
+}
